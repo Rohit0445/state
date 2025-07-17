@@ -76,8 +76,9 @@
 
 
 import { useState } from "react"
-import Counter from "./Counter"
-import Arr from "./Array"
+import Counter from "./Components/Counter"
+import Arr from "./Components/Array"
+import Togle from "./Components/Togle"
 
 
 
@@ -85,21 +86,23 @@ import Arr from "./Array"
 
  function App(){
 
-  let [color,setColor] = useState("White")
+  // let [color,setColor] = useState("White")
 
   return(
     <>
-    <div style={{background:color,height:'100vh',textAlign:'center'}}>
-      <h1>{color}</h1>
-      <button onClick={()=> setColor('red')}>RED</button>
-      <button onClick={()=> setColor('green')}>green</button>
-      <button onClick={()=> setColor('yellow')}>yellow</button>
-      <button onClick={()=> setColor('blue')}>BLUE</button>
-    </div>
+  {/* //   <div style={{background:color,height:'100vh',textAlign:'center'}}>
+  //     <h1>{color}</h1>
+  //     <button onClick={()=> setColor('red')}>RED</button>
+  //     <button onClick={()=> setColor('green')}>green</button>
+  //     <button onClick={()=> setColor('yellow')}>yellow</button>
+  //     <button onClick={()=> setColor('blue')}>BLUE</button>
+  //   </div> */}
 
     {/* <Counter /> */}
 
-    <Arr />
+    {/* <Arr /> */}
+
+    <Togle/>
     
     </>
   )

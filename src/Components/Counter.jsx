@@ -33,11 +33,16 @@ function Counter(){
      return(
       <>
 
-      <h1 style={{color:counter%2!=0?"red":"black"}}>{counter}</h1>
+      {/* <h1 style={{color:counter%2!=0?"red":"black"}}>{counter}</h1> */}
 
-      <button onClick={Plus}>PLUS</button>
+      
+
+      {/* <button onClick={Plus}>PLUS</button>
       <button onClick={Minus}>Minus</button>
-      <button onClick={()=> setCounter(0)}>Reset</button>
+      <button onClick={()=> setCounter(0)}>Reset</button> */}
+
+
+      
       
       </>
      )
