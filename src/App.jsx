@@ -79,7 +79,8 @@ import { useState } from "react"
 import Counter from "./Components/Counter"
 import Arr from "./Components/Array"
 import Togle from "./Components/Togle"
-
+import { ImOpt } from "react-icons/im"
+import EffectState from "./Components/EffectState"
 
 
 
@@ -102,8 +103,17 @@ import Togle from "./Components/Togle"
 
     {/* <Arr /> */}
 
-    <Togle/>
-    
+    {/* <Togle/> */}
+
+
+
+
+    <EffectState />
+
+
+
+
+
     </>
   )
      
